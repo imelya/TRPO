@@ -4,7 +4,6 @@
 #include "LRs.h"
 
 int main () {
-//	int chose;
 	char chose;
 	char choseM[1];
 	std::string choseStr;
@@ -16,11 +15,6 @@ int main () {
 	std::cout << "4.    LR4\n";
 	std::cout << "5.    LR5\n";
 	std::cout << "6.    Exit\n";
-/*	std::cin >> chose;
-	if (!std::cin){
-		std::cout << "Need number, aborting...\n";
-	}
-*/
 	std::cin >> choseStr;
 	if (  isUint(choseStr) ) { 
 		std::cout << "Need number. Try agan? (y/n)\n";
@@ -62,8 +56,5 @@ int main () {
 					break;
 		}
 	}
-
 	return 0;
-
 }
-
