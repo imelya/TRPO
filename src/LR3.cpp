@@ -169,7 +169,7 @@ int main() {
 */
 
 area *GetObj() {
-	area *p;
+	area *p = nullptr;
 	time_t t;
 	srand((int)time (&t));
 	switch (rand() % 3) {
