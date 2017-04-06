@@ -28,7 +28,6 @@ void printtrans (std::list<T>& v) {
 		}
 		else {
 			return n;
-			//std::cout << "\nNot letter!\n";
 		}
         for (std::list<char>::iterator it = V.begin(); it != V.end(); it++) {
         	std::cout << *it << ' ';
@@ -64,5 +63,6 @@ int LR5() {
 	}
 	else 
 		return 0;
+
 	return 0;
  }

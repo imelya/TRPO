@@ -62,4 +62,3 @@ int LR2 () {
 	return 0;
 
 }
-

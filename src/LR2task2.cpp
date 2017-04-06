@@ -7,15 +7,15 @@
 #include <algorithm>
 #include <sstream>
 #include <set>
-#include <regex>
+//#include <regex>
 #include "../includes/tasks.h"
-
+/*
 std::string regex_style(std::string & string){
     std::regex re1 ("^\\s+|\\s+$");
 	    std::regex re2 ("\\s+");
 		    return std::regex_replace( std::regex_replace(string,re1,""), re2, " ");
 	}
-
+*/
 int task2 () {
 	char a;
 	//Spaces
@@ -24,9 +24,9 @@ int task2 () {
 	ABC = "q   we we      we     we  ert   qw    qw   qw   yu  yu   yu abcd   abcd";
 	std::cout << "String: " << "\n" << ABC << "\n";
 	std::cout << "\n";
-	std::string ABC1 = regex_style(ABC);
+/*	std::string ABC1 = regex_style(ABC);
 	std::cout << "String without excess spaces first way: " << "\n" << ABC1 << "\n";
-	std::cout << "\n";
+*/	std::cout << "\n";
 	//Second Way
 	int n=0;
 	std::istringstream it1(ABC);
