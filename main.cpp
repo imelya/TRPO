@@ -4,7 +4,7 @@
 #include "LRs.h"
 
 int main () {
-	char answer = 'y';
+	char answer = ' ';
 	do  { 
 		std::string choseStr;
 		std::cout << "======LRs======\n";
