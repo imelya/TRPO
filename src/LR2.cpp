@@ -17,10 +17,6 @@ int LR2 () {
 		std::cout << "3. Main menu\n";
 		std::cout << "4. Exit\n";
 		std::cin >> input;
-/*		if (!std::cin){
-			std::cout << "Need number, aborting...\n";
-		}
-*/
 		if (!isUint(input)) { 
 			std::cout << "Need number. Try agan? (y/n)\n";
 			std::cin >> answer;
