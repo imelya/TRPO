@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <list>
-#include "../includes/tasks.h"
+#include "LR2tasks.h"
 
 std::ostream& operator<<(std::ostream& ostr, std::list<int>& list) {
 	std::list <int>:: iterator itrl;

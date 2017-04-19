@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <list>
-#include "main.h"
+#include "helpFunctions.h"
 
 /*
 int main() {

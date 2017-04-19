@@ -7,3 +7,10 @@ bool isUint (const std::string& s) {
 		return false;
 }
 
+bool check2 (int number) {
+if ( number < 2 )
+    return false;
+else
+  	return true;
+}
+

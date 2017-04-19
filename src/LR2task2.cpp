@@ -1,6 +1,5 @@
 /*Дана строка слов, разделенных пробелами. Сформируйте новую строку, заменив каждую группу внутренних пробелов одним пробелом. Оставьте в строке только первые вхождения слов. Определите самое короткое слово.*/
 
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -8,7 +7,7 @@
 #include <sstream>
 #include <set>
 //#include <regex>
-#include "../includes/tasks.h"
+#include "LR2tasks.h"
 /*
 std::string regex_style(std::string & string){
     std::regex re1 ("^\\s+|\\s+$");

@@ -1,10 +1,8 @@
 #include <iostream>
 #include <list>
 #include <string>
-#include "check.h"
-#include "tasks.h"
-#include "main.h"
-#include "isUint.h"
+#include "LR2tasks.h"
+#include "helpFunctions.h"
 
 int LR2 () {
 	char answer = ' ';

@@ -4,8 +4,8 @@
 #include <math.h>
 #include "Task.h"
 #include "Print.h"
-#include "main.h"
-#include "LR4h.h"
+#include "helpFunctions.h"
+#include "LR4.h"
 
 int LR4task(uint s) {
 	char answer = ' ';

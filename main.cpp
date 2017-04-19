@@ -2,7 +2,7 @@
 #include <string>
 #include <cstring>
 #include "LRs.h"
-#include "isUint.h"
+#include "helpFunctions.h"
 
 int main () {
 	char answer = ' ';

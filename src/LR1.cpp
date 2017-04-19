@@ -1,9 +1,8 @@
 /*Опишите параметризованную функцию инверсии массива элементов. Продемонстрируйте использование функции для разных типов данных.
 */
 #include <iostream>
-#include "task1.h"
-#include "func.h"
-#include "main.h"
+#include "LR1task.h"
+#include "helpFunctions.h"
 
 int LR1() {
 	std::cout << "==LR1==\n";
@@ -15,7 +14,7 @@ int LR1() {
         std::cout << "Need number" << "\n";
         }
 	else {
-    if (check(s)) {
+    if (!check2(s)) {
     	std::cout << "Less then 2. Try again? (y/n)\n";
 		std::cin >> answer;
 		if (answer == 'y') {

@@ -8,7 +8,7 @@
 #include <time.h>
 #include <cstdlib>
 #include <typeinfo>
-#include "main.h"
+#include "helpFunctions.h"
 
 class area {
 	double dim1, dim2;
