@@ -13,7 +13,7 @@ std::ostream& operator<<(std::ostream& ostr, std::list<int>& list) {
 	return ostr;
 }
 
-int task1 (size_t s) {
+int LR2task1 (size_t s) {
 	char a;
 // Список 1
 	std::list <int> lis;

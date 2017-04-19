@@ -16,7 +16,7 @@ std::string regex_style(std::string & string){
 		    return std::regex_replace( std::regex_replace(string,re1,""), re2, " ");
 	}
 */
-int task2 () {
+int LR2task2 () {
 	char a;
 	//Spaces
 	//First Way

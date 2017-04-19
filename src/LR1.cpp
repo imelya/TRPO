@@ -5,8 +5,8 @@
 #include "func.h"
 #include "main.h"
 
-int LR1()
-{ 	
+int LR1() {
+	std::cout << "==LR1==\n";
 	char answer;
     uint s;
 	std::cout<<"SizeOfIntArray: ";
@@ -14,14 +14,16 @@ int LR1()
     if(!std::cin) {
         std::cout << "Need number" << "\n";
         }
-    
 	else {
     if (check(s)) {
     	std::cout << "Less then 2. Try again? (y/n)\n";
 		std::cin >> answer;
 		if (answer == 'y') {
-			LR1();
 			answer = ' ';
+			LR1();
+		}
+		else {
+			return 0;
 		}
 	}
     std::vector<int> vec(s);

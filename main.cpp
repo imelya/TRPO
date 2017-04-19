@@ -2,6 +2,7 @@
 #include <string>
 #include <cstring>
 #include "LRs.h"
+#include "isUint.h"
 
 int main () {
 	char answer = ' ';
@@ -40,7 +41,7 @@ int main () {
 					LR5();
 				break;
 				case '6':
-					return 0;
+				break;
 				default:
 					std::cout << "Wrong number. Try again? (y/n)\n";
 					std::cin >> answer;
